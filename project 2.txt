@@ -1,0 +1,12 @@
+<html>
+    <head>
+       <strong><em><h1>Almahd school</h1></em></strong>
+    </head>
+    <body>
+<b>About 2500 students</b><br>
+<i>a british school</i><br>
+<small>90 teachers</small><br>
+<u>4 keystages</u><br>
+<mark>from lkg to grade 12</mark>
+</body>
+</html>
