@@ -1,0 +1,38 @@
+body{
+    font-family: cursive;
+    background-color: #39FF14;
+    color: white;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 142, 202);
+}
+a{
+    color:rgb(16, 5, 77);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(205, 50, 50);
+}
+ul>li{
+    font-weight: bold;
+}
+span{
+    background-color:navy;
+padding: 10px;
+border: 2px solid;
+}
+ul li:hover{
+    color: palevioletred;
+}
+
+ul li::before{
+    content:"🚗";}
+
+    a::after{
+        content:"🔧";
+    }
+    li::first-letter{
+        font-size: 200%;
+    }
+
