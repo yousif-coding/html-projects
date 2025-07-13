@@ -1,47 +1,21 @@
-<html>
-    <head>
-        <title>my first form</title>
-    </head>
-    <body bgcolor="#39FF14">
-        <form><fieldset>
-            <h1>Sign up</h1>
-            <label>Enter your name</label><br>
-            <input type="text"><br>
-            <label>Enter your Password</label><br>
-            <input type="password"><br>
-            <label>Enter your email</label><br>
-            <input type="email"><br>
-            <label>Choose Your Gender</label><br>
-            <input type="radio" name="gender">Male<br>
-            <input type="radio" name="gender">female<br>
-            <label>Select Your Hobbies</label><br>
-            <input type="checkbox"> football<br>
-            <input type="checkbox"> basketball<br>
-            <input type="checkbox"> Pickleball<br>
-            <label> Enter Your Date Of Birth</label><br>
-            <input type="date"><br>
-            
-            <label>Select Your Country</label><br>
-            <select>
-                <option>Bahrain</option>
-                <option>UAE</option>
-                <option>Saudi Arabia</option>
-                <option>Kuwait</option>
-            
-
-            </select><br>
-            <label>Enter Your Address</label><br>
-            <textarea></textarea><br>
-            <input type="submit">
-            <h1>Log In</h1>
-            <label>Enter your name</label><br>
-            <input type="text"><br>
-            
-            <label>Enter your email</label><br>
-            <input type="email"><br>
-            <label>Enter your Password</label><br>
-            <input type="password"</label><br>
-            <input type="submit">
-        </form></fieldset>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Box Models</title>
+<link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <div id="box1">
+        <center><h1>'Too far for ronaldo to think about it'</h1></center>
+        <img id="img1" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT54mVC-iz_GjSizW3E4ZIx9WEZBhsZc7erFA&s alt="Error">
+    <p>'Too far for Ronaldo to think about, ohhh absolutely sensational' -Commentator On this day, 10 years ago, Ronaldo scored this unbelievable freekick goal from 35+ yards away from the goal against arsenal</p>
+    </div>
+     <div id="box2">
+        <h1>'Ankara messi ankara messi ankara messi'</h1>
+        <img id="img2" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBfM8vVQZ9AbTe0VHRI8iAtYNJHc59cbK8Q&s" alt="Error">
+   <p>Jakakokalareta marshalli asistencia marshalli meska paramueta para messi messi messi messi messi messi messi messi i menci messi ankara messi ankara messi ANKARA MESSI ANKARA MESSI ANKARA MESSI ANKARA MESSI UENA MESSI ANKARA MESSI ANKARA MESSI ANKARA MESSI ANKARA MESSI
+A N K A R A M E S S I
+GOLGOL GOLGOL GOL !!!</p>
+    </div>
+</body>
 </html>
