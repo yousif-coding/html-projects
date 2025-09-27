@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class vehicle{
+            names(){
+                document.write("lamborghini","<br>")
+            }
+        }
+        class ferrari extends vehicle{
+          model(){
+            document.write("lamborghini aventador","<br>")
+          } 
+          static color(){
+            document.write("neon green")
+          } 
+        }
+        var a=new ferrari()
+        a.names()
+        a.model()
+        ferrari.color()
+    </script>
+</body>
+</html>
