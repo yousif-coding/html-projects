@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ascending()">click me to switch</button>
+        <button onclick="descending()">click me to switch</button>
+<h1 id="n"></h1>
+<script>
+    var a=[9,54,12,43,82,4,22]
+    document.getElementById("n").innerHTML=a
+    function ascending(){
+        a.sort(function(a,b){return a-b})
+            document.getElementById("n").innerHTML=a
+
+    }
+      function descending(){
+        a.sort(function(a,b){return b-a})
+            document.getElementById("n").innerHTML=a
+
+    }
+
+</script>
+</body>
+</html>
