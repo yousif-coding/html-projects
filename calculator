@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="add()">add me</button>
+        <button onclick="subtract()">subtract me</button>
+           <button onclick="multiply()">multiply me</button>
+              <button onclick="divide()">divide me</button>
+<script>
+    function add(){
+        var a=67
+        var b=21
+    document.write(a+b)
+    }
+        function subtract(){
+        var a=67
+        var b=21
+    document.write(a-b)
+    }
+        function multiply(){
+        var a=67
+        var b=21
+    document.write(a*b)
+    }
+        function divide(){
+        var a=67
+        var b=21
+    document.write(a/b)
+    }
+</script>
+
+
+
+
+            </body>
+</html>
