@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+  function valid(){
+    var a=document.forms["form"]["br"].value;
+    if(a==""){
+        alert("cant proceed")
+        return false
+    }
+  }
+   </script>
+</head>
+<body>
+    <form name="form"onsubmit="valid()">
+        <input type="text"name="br">
+        <input type="submit">
+    </form>
+</body>
+</html>
